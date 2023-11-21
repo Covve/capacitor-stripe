@@ -14,7 +14,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunityStripeIdentity.podspec"
+    "CovveCapacitorStripeIdentity.podspec"
   ],
   "author": "Masahiko Sakakibara",
   "license": "MIT",

@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/stripe",
+  "name": "@covve/capacitor-stripe",
   "version": "6.2.1",
   "engines": {
     "node": ">=18.0.0"
@@ -26,7 +26,7 @@
     "dist/",
     "src/",
     "ios/Plugin/",
-    "CapacitorCommunityStripe.podspec"
+    "CovveCapacitorStripe.podspec"
   ],
   "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
   "license": "MIT",
