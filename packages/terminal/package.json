@@ -16,7 +16,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorCommunityStripeTerminal.podspec"
+    "CovveCapacitorStripeTerminal.podspec"
   ],
   "author": "Masahiko Sakakibara",
   "license": "MIT",

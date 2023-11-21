@@ -1072,7 +1072,6 @@ Controls where the tap indicator appears on screen.
 | **`stripeM2`**         | <code>'stripeM2'</code>         |
 | **`stripeS700`**       | <code>'stripeS700'</code>       |
 | **`stripeS700DevKit`** | <code>'stripeS700Devkit'</code> |
-| **`verifoneP400`**     | <code>'verifoneP400'</code>     |
 | **`wiseCube`**         | <code>'wiseCube'</code>         |
 | **`wisePad3`**         | <code>'wisePad3'</code>         |
 | **`wisePosE`**         | <code>'wisePosE'</code>         |
