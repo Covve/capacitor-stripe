@@ -1,6 +1,7 @@
 import Foundation
 import Capacitor
 import StripePaymentSheet
+import PassKit
 
 class PaymentSheetExecutor: NSObject {
     weak var plugin: StripePlugin?
@@ -54,7 +55,15 @@ class PaymentSheetExecutor: NSObject {
         if call.getBool("enableApplePay", false) && applePayMerchantId != "" {
             configuration.applePay = .init(
                 merchantId: applePayMerchantId,
-                merchantCountryCode: call.getString("countryCode", "US")
+                merchantCountryCode: call.getString("countryCode", "US"),
+                customHandlers: .init(
+                    paymentRequestHandler: { (req: PKPaymentRequest) -> PKPaymentRequest in
+                        var contactFieldArray: [PKContactField] = []
+                        contactFieldArray.append(.emailAddress)
+                        req.requiredShippingContactFields = Set(contactFieldArray)
+                        return req
+                    }
+                )
             )
         }
 
