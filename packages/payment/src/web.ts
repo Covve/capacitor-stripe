@@ -64,7 +64,7 @@ export class StripeWeb extends WebPlugin implements StripePlugin {
       this.cardElementModal.stripeAccount = this.stripeAccount;
     }
 
-    this.cardElementModal.applicationName = '@capacitor-community/stripe';
+    this.cardElementModal.applicationName = '@covve/capacitor-stripe';
 
     this.cardElementModal.intentClientSecret = options.paymentIntentClientSecret;
     this.cardElementModal.intentType = 'payment';
@@ -133,7 +133,7 @@ export class StripeWeb extends WebPlugin implements StripePlugin {
       this.cardElementModal.stripeAccount = this.stripeAccount;
     }
 
-    this.cardElementModal.applicationName = '@capacitor-community/stripe';
+    this.cardElementModal.applicationName = '@covve/capacitor-stripe';
 
     // eslint-disable-next-line no-prototype-builtins
     if (options.hasOwnProperty('paymentIntentClientSecret')) {
@@ -286,7 +286,7 @@ export class StripeWeb extends WebPlugin implements StripePlugin {
       requestButton.stripeAccount = this.stripeAccount;
     }
 
-    requestButton.applicationName = '@capacitor-community/stripe';
+    requestButton.applicationName = '@covve/capacitor-stripe';
     return await requestButton.isAvailable(type).finally(() => requestButton.remove());
   }
 
@@ -303,7 +303,7 @@ export class StripeWeb extends WebPlugin implements StripePlugin {
       requestButton.stripeAccount = this.stripeAccount;
     }
 
-    requestButton.applicationName = '@capacitor-community/stripe';
+    requestButton.applicationName = '@covve/capacitor-stripe';
 
     return requestButton;
   }

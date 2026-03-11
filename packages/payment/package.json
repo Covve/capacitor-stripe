@@ -1,6 +1,6 @@
 {
-  "name": "@capacitor-community/stripe",
-  "version": "8.1.0",
+  "name": "@covve/capacitor-stripe",
+  "version": "8.1.2",
   "engines": {
     "node": ">=22.0.0"
   },
@@ -27,7 +27,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorCommunityStripe.podspec"
+    "CovveCapacitorStripe.podspec"
   ],
   "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
   "license": "MIT",
